@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ludmila"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-10 08:34:42 "/>
+        <attribute name="created" value="THVkbWlsYTtMVURNSUxBLVBDOzIwMjItMDItMTA7IjA4OjI3OjUzICI7MjYxMw=="/>
+        <attribute name="edited" value="THVkbWlsYTtMVURNSUxBLVBDOzIwMjItMDItMTA7IjA4OjM0OjQyICI7MTsyNzE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Real" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;parabens! Voce ganhou um abono de 10% sobre suas vendas&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voce n&#227;o bateu suas metas, mas pelo esfor&#231;o tera um abono de 3%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
