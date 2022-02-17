@@ -1,2 +1,7 @@
 # anotacoes-e-exercicios-Dio
- Início na programação
+**Exercicios do Bootcamp GFT java nível básico**
+
+Exercícios até esse momento do curso
+
+
+
